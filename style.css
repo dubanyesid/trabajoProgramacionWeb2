@@ -1,0 +1,232 @@
+#foto{
+    width: 1000px;
+    height: 400px;
+    background: linear-gradient(90deg,rgb(65, 63, 63), rgb(19, 18, 18));
+    opacity: 0.9;
+}
+#nombre{
+    color: red;
+}
+body{
+    background-image: url("foto3.2.jpg"); 
+    
+    margin: 22px;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    text-align:justify; 
+}
+body ::before {
+    position: absolute;
+    opacity: 0.6;
+
+   
+  }
+  #p1,#p2{
+      color:rgb(5, 5, 5);
+      font-family: 'Courier New', Courier, monospace;
+
+  }
+  #tabla{
+    width: 100%;
+    border: 1px solid #000;
+
+  }
+  th,td{
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+  }
+  #pf{
+    color: red;
+  }
+  #formulario{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+  }
+  form {
+    border: 1px solid;
+    border-radius: 50px;
+    box-shadow: 1px 1px 1000px white;
+}
+input , textarea{
+    border:0;
+    background: none;
+    display: block;
+    margin : 20px auto;
+    text-align: center;
+    border: 1px solid;
+    border-color:white;
+    padding: 14px  10px;
+    width: 200px;
+    outline: none;
+    color:black;
+    border-radius: 24px;
+    transition: 0.25s;
+    font-style: italic;
+    font-size: 15px;
+    size: 20px;
+}
+input:focus{
+    border: 2px solid;
+    width: 280px;
+    border-color:black;
+    
+}
+.box input[type ="Submit"]{
+    border:0;
+    background: none;
+    display :block;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid;
+    border-color:black;
+    padding: 14px 30px;
+    outline:none;
+    color:rgb(253, 249, 249);
+    border-radius: 24px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.box input[type = "Submit"]:hover {
+    border: 2px solid;
+    transition: 0.5s;
+    background-color:rgb(12, 12, 12);
+    border-color:white;
+    color: white;
+}
+#usuario, #Password{
+    color: rgb(255, 253, 253);
+}
+#frase{
+    color: white;
+    font-size: 22px;
+    font-family: italic;
+    text-align: inherit;
+}
+
+
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    width: 75%;
+    margin: auto;
+    display: block;
+}
+
+.form-group {
+    margin: 15px auto;
+    text-align: left;
+    width: 80%;
+}
+
+.checkbox {
+    text-align: left;
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    display: block;
+}
+
+#boton{
+    background-color:rgb(12, 12, 12); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#btn-enviar {
+    width: 200px;
+}
+
+.btn-default {
+    background-color: #7cabd3;
+    color: white;
+    border: 1px solid #36A0FF;
+}
+
+.btn-default:hover {
+    background-color: #2a95f3;
+    box-shadow: 0 0 5px #2a95f3, 0 0 5px #2a95f3, 0 0 5px #2a95f3;
+    color: white;
+    border: none;
+}
+
+.login {
+    margin: 12px auto;
+    display: block;
+    width: 80%;
+    padding: 14px;
+    text-align: center;
+    background-color: #e2dfdf;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.signup {
+    margin: 12px auto;
+    display: block;
+    width: 80%;
+    padding: 14px;
+    text-align: center;
+    background-color: #e2dfdf;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#txtInfo {
+    opacity: 1;
+    color: black;
+}
+
+.btn-login .btn-default {
+    width: 200px;
+    opacity: 1;
+}
+
+form {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid white;
+    border-radius: 6px;
+    padding: 18px;
+}
+
+input {
+    text-align: center;
+    color: rgb(12, 12, 12);
+}
+
+select {
+    text-align-last: center;
+}
+#form{
+    align-content: center;
+    width: 150;
+    height: 50;
+    border: 5px solid black;
+    padding: 50px;
+    margin: 20px;
+  }
